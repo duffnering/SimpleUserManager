@@ -3,7 +3,7 @@ Basic User Manager Functions for ProcessWire.
 
 This module provides basic front-end user registration, email verification, login, password reset, and profile management functions.
 
-**Note:**This module requires the WireMailSMTP module to send emails.
+**Note:** This module requires the WireMailSMTP module to send emails.
 
 ## Registration
 The following data is collected during user registration. All fields are required. If a company name does not exist, the company name becomes a concatenation of the user's first and last names.
