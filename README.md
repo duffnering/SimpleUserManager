@@ -10,6 +10,18 @@ The following data is collected during user registration. All fields are require
 * Company Name
 * Email Address
 * Password
+* Verify Password
 
+## Email Verification
 Upon submitting the registration form, a verification email is sent to the user-supplied email address. The verification email contains a link to complete the verification process. This link is valid for a specified time period and defined in the module config settings. The user may request another verification email be sent should the current verification expire.
 
+## User Login
+The user provides the email address and password defined during registration in order to log in. The user has three (default config setting) attempts to log in, after which the account is temporarily disabled for a specified time period (config setting). The user may log in again after this time period has expired.
+
+## Password Reset
+A password reset link is sent to the email address defined during registration. The same expiration exists for password reset as for email verification. The password reset form requests a new password and verify new password fields. If the passwords match, the user is redirected to the login form.
+
+## Profile Management
+The user profile consists of the data collected during registration and the following additional fields.
+* User Avatar
+* ???
